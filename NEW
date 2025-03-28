@@ -1,7 +1,6 @@
-echo "# Mckenzieham.github.io" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
+git add .
+git commit -m "First commit"
+git branch -M master
 git remote add origin https://github.com/mckenzieham/Mckenzieham.github.io.git
-git push -u origin main
+git push -u origin master
